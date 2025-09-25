@@ -1,8 +1,8 @@
 {
     "mcpServers": {
-        "YOUR_SERVER_NAME": {
+        "greeting-mcp-server": {
             "command": "node",
-            "args": ["/ABSOLUTE/PATH/TO/YOUR/PROJECT/build/index.js"]
+            "args": ["./build/index.js"]
         }
     }
 }
