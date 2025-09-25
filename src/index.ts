@@ -5,6 +5,8 @@ import { InferenceClient } from '@huggingface/inference'
 import dotenv from 'dotenv'
 dotenv.config()
 
+export default function createServer(){
+
 // Create server instance
 const server = new McpServer({
     name: 'greeting-mcp-server',
@@ -344,3 +346,5 @@ main().catch(error => {
     console.error('서버 시작 중 오류 발생:', error)
     process.exit(1)
 })
+return server.server; // Must return the MCP server object
+}
