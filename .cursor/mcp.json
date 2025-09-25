@@ -3,6 +3,9 @@
         "greeting-mcp-server": {
             "command": "node",
             "args": ["./build/index.js"]
+        },
+        "smithery-mcp-server": {
+            "url": "https://server.smithery.ai/@su-myeong/my-mcp-server-20250925/mcp"
         }
     }
 }

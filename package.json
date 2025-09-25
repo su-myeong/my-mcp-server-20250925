@@ -8,7 +8,7 @@
         "mcp-server": "./build/index.js"
     },
     "scripts": {
-        "build-local": "tsc && chmod 755 build/index.js",
+        "build-local": "tsc",
         "build": "npx @smithery/cli build",
         "dev": "npx @smithery/cli dev"
     },
