@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/su-myeong-my-mcp-server-20250925-badge.png)](https://mseep.ai/app/su-myeong-my-mcp-server-20250925)
+
 # TypeScript MCP Server 보일러플레이트
 
 TypeScript MCP SDK를 활용하여 Model Context Protocol (MCP) 서버를 빠르게 개발할 수 있는 보일러플레이트 프로젝트입니다.
